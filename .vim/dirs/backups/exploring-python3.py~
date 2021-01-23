@@ -1,0 +1,11 @@
+a = (True if input('A: ') == 'True' else False)
+b = (True if input('B: ') == 'True' else False)
+
+if a:
+    print('A')
+if b:
+    print('B')
+if a and b:
+    print('A and B')
+if a or b:
+    print('A or B')

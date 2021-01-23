@@ -1,0 +1,11 @@
+print("sup cracka")
+print('o----')
+print(' ||||')
+print('*' * 10)
+bool_test = False
+test = 3.1111111111
+test = 4
+# ass = 69 #ooh spicy
+bool_test = True
+parrot = input('Tell me something spicy. ')
+print('Hey ' + parrot)

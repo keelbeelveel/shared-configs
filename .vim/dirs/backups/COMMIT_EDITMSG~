@@ -1,0 +1,42 @@
+Merge branch 'master' of https://github.com/keelbeelveel/keelbeelveel.github.io
+
+# Conflicts:
+#	_layouts/default.html
+#	_layouts/info_executable.html
+#	_layouts/info_project.html
+#	_layouts/working_splash.html
+#	projects/miamineon/miamineon.html
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please remove the file
+#	.git/MERGE_HEAD
+# and try again.
+
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 3 and 3 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# All conflicts fixed but you are still merging.
+#
+# Changes to be committed:
+#	deleted:    README.md
+#	deleted:    _config.yml
+#	deleted:    _layouts/info_executable.html
+#	modified:   hardware.html
+#	renamed:    _layouts/default.html -> index.html
+#	modified:   midware.html
+#	renamed:    _layouts/working_splash.html -> null.html
+#	renamed:    _layouts/info_project.html -> projects/binary_clock/binary_clock.html
+#	renamed:    _layouts/info_basic.html -> projects/binary_clock/datapath-rev1.html
+#	modified:   projects/miamineon/miamineon-al.html
+#	modified:   projects/miamineon/miamineon-vim.html
+#	deleted:    projects/miamineon/miamineon.html
+#	modified:   projects/projects.html
+#	modified:   software/software.html
+#	modified:   software/timeToBinary.html
+#

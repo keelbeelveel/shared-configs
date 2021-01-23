@@ -1,0 +1,191 @@
+/* Stylesheet revised: 6/1/2020 9:21 PM */
+@font-face {
+    font-family: Hack;
+    src: url('../resources/fonts/Hack-Regular.ttf');
+    font-family: Hurmit-NF;
+    src url('../resources/fonts/Hurmit-NF.otf')
+}
+/* debug */
+div { outline: 1px dashed yellow } 
+span { outline: 1px dashed red }
+
+html {
+    background-color: #1c1b1a;
+    font-family: Hack;
+    overflow-x: hidden;
+}
+
+html { overflow-y: hidden; }
+#body { overflow-y: auto; }
+body {
+    margin: 0;
+    flex: auto;
+}
+
+p, span, .text{
+
+font-size: .9vw;
+color: #87ff00;
+
+}
+a { color: #d75f00; }
+h1 * { font-size: 2.6vw;  }
+h2 { font-size: 1.8vw;  }
+h3 { font-size: 1.6vw; }
+
+div.nav{
+    width: 100%;
+    overflow: auto;
+    background: rgba(28,27,26, 0.9);
+    border: 2px solid lime;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+div.nav a {
+    color: #87ff00;
+    float: left;
+    text-align: center;
+    width: 12.5%;
+    font-size: 1.95vw;
+    width: 16.66667%;
+    text-decoration: none;
+}
+
+div.nav a:hover{
+    background: #87ff00;
+    color: #1c1b1a;
+}
+
+
+#main-sitetitle { visibility: visible; }
+#alt-sitetitle { 
+    position: absolute;
+    visibility: hidden; 
+    top: 0;
+}
+
+#site-title:hover #main-sitetitle { visibility: hidden; }
+#site-title:hover #alt-sitetitle { visibility: visible; }
+
+#body {
+    background: url('../resources/wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    padding-bottom: 5vh;
+}
+
+#header {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    color: #d7ff00;
+}
+
+#page-header {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: rgba(28,27,26,.8);
+}
+
+.page-header {
+    color: #87ff00;
+}
+
+#page-container {
+    position: relative;
+    min-height: 95vh;
+}
+
+#content-wrap {
+    padding-top: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: 4vh;
+}
+
+#page-body td, table, th {
+    background: rgba(95,135,95,0.3);
+    border-collapse: collapse;
+    color: #d7ff00;
+    border: 2px solid #d7d7ff;
+    padding-left: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
+}
+#page-body td a {
+    color: #87ffa7;
+}
+
+#footer {
+    color: #d7d7ff;
+    padding 2.5rem;-top: 44px;
+    padding-left: 4px;
+    background: rgba(95, 135, 95, 0.4);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer a {
+    color: #d7005f;
+}
+
+.flex {
+    flex: 1;
+}
+
+.icontooltip {
+  position: relative;
+}
+.icontooltip .icontooltiptext {
+  visibility: hidden;
+  width: 90%;
+  background-color: #1c1b1a;
+  color: #0f0;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  top: -5%;
+  left: 5%;
+  position: absolute;
+  z-index: 1;
+}
+.icontooltip:hover .icontooltiptext {
+  visibility: visible;
+}
+
+.icontooltip a {
+    text-decoration: none;
+}
+
+.icontooltip img {
+    border: 0 none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    width: 99%;
+}
+.center p {
+    text-align: center;
+}
+
+.contains-flex {
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.title {
+    text-align: center;
+}

@@ -1,0 +1,100 @@
+- Assorted Inductor Kit - NOT TAPE PACKED.- Thin, Clear Phone case for Galaxy S10+- Febreeze Plug in refill (3x+) - Assorted Dupont Connector kit (https://tinyurl.com/y7g6pv47)- Ratcheting Crimping Pliers for Dupont Connectors (Ratcheting Dupont Crimping Tool)- "Gift Card" for PCBway.com (Circuit board manufacturer I plan on using for my project. They dont sell gift cards but 25-30$ "certificate" towards manufacturing cost would be appreciated)- 4" Magnetic Stainless steel parts trays- **LOW NOISE** Desk or Floor fan or (preferably) some kind of fanless evaporative cooler- USB-C Based Thermal Imaging attachment for Android Phone- Glasses???,v
+/,v
+../master/images/EAGLE/,23
+e,v
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif,V
+ ,v
+]DSAP0026147.pdf*,v
+                |                                      |            |     |             |                    |                |                                      |            |     |             |                    |,V
+                |                                      |            |     |             |                    |,V
+,V
+autocmd StdinReadPre * let s:std_in=1,V
+autocmd BufEnter * if (winnr('$') == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif,V
+|,v
+:,v
+.,v
+Staged changes,V
+# Copyright (C) 2019  Intel Corporation. All rights reserved.# Your use of Intel Corporation's design tools, logic functions # and other software and tools, and any partner logic # functions, and any output files from any of the foregoing # (including device programming or simulation files), and any # associated documentation or information are expressly subject # to the terms and conditions of the Intel Program License # Subscription Agreement, the Intel Quartus Prime License Agreement,# the Intel FPGA IP License Agreement, or other applicable license# agreement, including, without limitation, that your use is for# the sole purpose of programming logic devices manufactured by# Intel and sold by Intel or its authorized distributors.  Please# refer to the applicable agreement for further details, at# https://fpgasoftware.intel.com/eula.# Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition# File: C:\Users\kbelv\src\projects\clock\quartusII\binary_clock_pins.csv# Generated on: Tue Jun 02 22:24:06 2020# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus Prime software.To,Direction,Location,I/O Bank,VREF Group,Fitter Location,I/O Standard,Reserved,Current Strength,Slew Rate,Differential Pair,Strict PreservationAMPM,Output,PIN_B12,7,B7_N0,PIN_B12,2.5 V,,,,,CLOCK_60,Input,PIN_D12,7,B7_N0,PIN_D12,2.5 V,,,,,HALT,Input,PIN_T8,3,B3_N0,PIN_T8,2.5 V,,,,,HR_KEY,Input,PIN_E1,1,B1_N0,PIN_E1,2.5 V,,,,,hr_out[3],Output,PIN_D11,7,B7_N0,PIN_D11,2.5 V,,,,,hr_out[2],Output,PIN_B11,7,B7_N0,PIN_B11,2.5 V,,,,,hr_out[1],Output,PIN_E10,7,B7_N0,PIN_E10,2.5 V,,,,,hr_out[0],Output,PIN_D9,7,B7_N0,PIN_D9,2.5 V,,,,,INC_SW,Input,PIN_B9,7,B7_N0,PIN_B9,2.5 V,,,,,MIN_KEY,Input,PIN_J15,5,B5_N0,PIN_J15,2.5 V,,,,,min_out[5],Output,PIN_E9,7,B7_N0,PIN_E9,2.5 V,,,,,min_out[4],Output,PIN_F8,8,B8_N0,PIN_F8,2.5 V,,,,,min_out[3],Output,PIN_D8,8,B8_N0,PIN_D8,2.5 V,,,,,min_out[2],Output,PIN_E6,8,B8_N0,PIN_E6,2.5 V,,,,,min_out[1],Output,PIN_C6,8,B8_N0,PIN_C6,2.5 V,,,,,min_out[0],Output,PIN_D6,8,B8_N0,PIN_D6,2.5 V,,,,,ms_out[3],Output,PIN_C9,7,B7_N0,PIN_C9,2.5 V,,,,,ms_out[2],Output,PIN_E11,7,B7_N0,PIN_E11,2.5 V,,,,,ms_out[1],Output,PIN_C11,7,B7_N0,PIN_C11,2.5 V,,,,,ms_out[0],Output,PIN_A12,7,B7_N0,PIN_A12,2.5 V,,,,,RST,Input,PIN_M1,2,B2_N0,PIN_M1,2.5 V,,,,,sec_out[5],Output,PIN_B7,8,B8_N0,PIN_B7,2.5 V,,,,,sec_out[4],Output,PIN_A7,8,B8_N0,PIN_A7,2.5 V,,,,,sec_out[3],Output,PIN_C8,8,B8_N0,PIN_C8,2.5 V,,,,,sec_out[2],Output,PIN_E7,8,B8_N0,PIN_E7,2.5 V,,,,,sec_out[1],Output,PIN_E8,8,B8_N0,PIN_E8,2.5 V,,,,,sec_out[0],Output,PIN_F9,7,B7_N0,PIN_F9,2.5 V,,,,,,V
+0,v
+*,v
+*!*/!*.sch!*.png!*.md!*.qpf!*.qsf!*.bdf!*.v!*.sof!*.sdc!*.bsf!*.qip!*.qws/quartusII/db/*/quartusII/output_files/*/quartusII/incremental_db/*/quartusII/greybox_tmp/*,V
+-,v
+- When the clock is halted (for editing the time), the small increment add_minute function (which was supposed to add 1 minute to the clock) appears to work correctly, as this can be achieved without the use of the 74175. In fact, this function will work as long as the current time when the function is triggered is not equal to 101111 (47 in base 10). Because incrementing the time from 47 -> 48 (101111 -> 110000) requires both upper bits to flip, and because the 74175 doesn't like to behave when halted, this action will confuse the logic and cause the time to incorrectly increment from 101111 -> 010000.,V
+git push origin master,V
+;,v
+raw,v
+s,v
+added: projects/binary_clock/datapath-rev1.html,V
+n/a,v
+5,v
+    <h3>Clock Datapath revision 1</h3>,V
+proj,v
+binary_clock,v
+https://en.wikipedia.org/wiki/Verilog,v
+Verilog,v
+g,v
+project,v
+layout: info_basic,V
+---,V
+---layout: info_projecttitle: keelbeelveel.com | binary_clockdescription: keelbeelveel.com binary_clock project pagekeywords: verilog, circuit, electrical engineering, eagle, EAGLE, clock, binary, binary_clockicon: /resources/icons/binary_clock.pngtype: Verilogcode-type: Verilogicon-href: https://en.wikipedia.org/wiki/Verilogproj-title: binary_clockproj-desc:proj-author: keelbeelveelproj-revised:links: <a href="https://github.com/keelbeelveel/binary_clock">Github</a>revised: Mon. June 1st, 2020, 9:41pm---,V
+        <p>Hmmm... Looks like I haven't added any subpages yet. I'll get right on that.</p>,V
+    </div>,V
+        <h3>Installation:</h3>,V
+    <div id="install" class="install">,V
+        </p>,V
+let g:airline_theme = 'miamineon'{% endhighlight %},V
+colorscheme miamineon,V
+            {% highlight raw linenos %},V
+        <p>,V
+        <p>(Note: The second line is unnecessary for non-airline users)</p>,V
+        <p>Additionally, add the following to your .vimrc file:</p>,V
+~/.vim/plugged/vim-airline-themes/autoload/airline/themes/miamineon.vim{% endhighlight %},V
+mv miamineon-airline.vim \,V
+mv miamineon.vim ~/.vim/colors/,V
+git clone https://github.com/keelbeelveel/miamineon.git,V
+        {% highlight raw linenos %},V
+        <p>(Note: The third and fourth lines are for airline users only.)</p>,V
+        <p>To install miamineon, use the following commands in a linux environment:</p>,V
+        </ul>,V
+        <ul class="text">,V
+            <li>,V
+            </li>,V
+                <a href="miamineon-al.html">miamineon-airline.vim</a>,V
+                <a href="miamineon-vim.html">miamineon.vim</a>,V
+            A Vim colorscheme built on Steve Losh's Badwolf. Its colors can be seen all around this page, as it is also the main color palette for this website.,V
+<div id="proj-overview" class="proj-overview">    <div id="description" class="description">        <h3>Description:</h3>        <p>            A Vim colorscheme built on Steve Losh's Badwolf. Its colors can be seen all around this page, as it is also the main color palette for this website.        </p>    </div>    <div id="subpages" class="subpages">        <h3>Subpages:</h3>        <ul class="text">            <li>                <a href="miamineon-vim.html">miamineon.vim</a>            </li>            <li>                <a href="miamineon-al.html">miamineon-airline.vim</a>            </li>        </ul>    </div>    <div id="install" class="install">        <h3>Installation:</h3>        <p>To install miamineon, use the following commands in a linux environment:</p>        <p>(Note: The third and fourth lines are for airline users only.)</p>        <p>        {% highlight raw linenos %}git clone https://github.com/keelbeelveel/miamineon.gitmv miamineon.vim ~/.vim/colors/mv miamineon-airline.vim \~/.vim/plugged/vim-airline-themes/autoload/airline/themes/miamineon.vim{% endhighlight %}        </p>        <p>Additionally, add the following to your .vimrc file:</p>        <p>(Note: The second line is unnecessary for non-airline users)</p>        <p>            {% highlight raw linenos %}colorscheme miamineonlet g:airline_theme = 'miamineon'{% endhighlight %}        </p>    </div></div>,V
+</section>,V
+Coming soon. But hey, at least the page works!,V
+<section>,V
+Various,v
+miamineon,v
+h,v
+added: projects/miamineon/miamineon-al.html,V
+file-title: <a href="https://github.com/keelbeelveel/timeToBinary/blob/master/timeToBinary.py">timeToBinary.py</a> from <a href="https://github.com/keelbeelveel">keelbeelveel's Github</a>,V
+---layout: info_basictitle: keelbeelveel.com | miamineon.vimdescription: keelbeelveel.com miamineon.vim info page.keywords: vim, vim-airline, vim-plug, plugin, vimscript, colorscheme, neon, color, miamineonicon: /resources/icons/miamineon.pngtype: vimscriptfile-type: vimfile-title: <a href="https://github.com/keelbeelveel/timeToBinary/blob/master/timeToBinary.py">timeToBinary.py</a> from <a href="https://github.com/keelbeelveel">keelbeelveel's Github</a>icon-href: https://www.vim.org/file-title: miamineon.vimfile-label-title: <a href="https://github.com/keelbeelveel/miamineon/blob/master/miamineon.vim">miamineon.vim</a> from <a href="https://github.com/keelbeelveel/">keelbeelveel's Github</a>file-desc: The main .vim file for the colorscheme. Built on Steve Losh's <a href="https://github.com/sjl/badwolf">badwolf</a>. file-author: keelbeelveelfile-revised: May 26, 2020, 6:04 PM ESTlinks: <a href="https://github.com/keelbeelveel/miamineon/blob/master/miamineon.vim">Github</a> revised: Mon. June 1, 2020 9:20 PM---{% highlight vim linenos %}{% github_sample /keelbeelveel/miamineon/master/miamineon.vim %}{% endhighlight %},V
+i,v
+"https://github.com/keelbeelveel/miamineon/blob/master/miamineon.vim",v
+2,v
+    height: 2vw;,V
+    padding: 2px;,V
+t,v
+x,v
+#,v
+added: projects/miamineon/miamineon-vim.html,V
+software,v
+#software-links td {,V
+code,v
+},V
+    width: 100%;,V
+#replFrame iframe {,V
+    visibility: visible;,V
+.replFrame:hover .replLabel {,V
+    left: -32.5%;,V
+    padding: 2px 2px 2px 2px;,V
+    width: fit-content;,V
+    visibility: hidden;,V
+    border: 2px solid #d7005f;,V
+    background: #87ff00;,V
+    color: #1c1b1a;,V
+    position: relative;,V
+.replFrame.replLabel {,V

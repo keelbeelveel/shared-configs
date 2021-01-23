@@ -1,0 +1,6 @@
+weight_lbs = float(input('Specify your weight in pounds: '))
+weight_kgs = weight_lbs * .45359237
+print('Your weight in Kilograms is: ' + str(weight_kgs))
+
+input_ = input('String pls: ')
+print(input_.title())

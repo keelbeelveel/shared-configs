@@ -1,0 +1,49 @@
+---
+layout: default
+title: keelbeelveel.com | Software
+description: keelbeelveel.com software page
+revised: Mon. June 1, 2020, 6:28 pm
+---
+<div id="page-header" class="page-header">
+    <h3 class="page-header">
+        This page will house the many software projects I have done in C++, Java, Python, vimscript, and more.
+    </h3>
+</div>
+<div id="page-body" class="page-body">
+    <table>
+        <tr>
+            <td scope="col" class="software-icon"></td>
+            <td scope="col" class="software-title">Title:</td>
+            <td scope="col" class="software-description">Description:</td>
+            <td scope="col" class="software-page"></td>
+            <td scope="col" class="github-page"></td>
+        </tr>
+        <tr class="timeToBinary">
+            <td class="python-icon">
+                <a href="/software/timeToBinary.html">
+                    <div class="icontooltip">
+                        <img src="/resources/icons/python.png" class="icon" width=64 alt="Python 3.8.2"/>
+                </a>
+                <span class="icontooltiptext text">
+                    Python 3.8.2
+                </span>
+                    </div>
+                    </a>
+            </td>
+            <td>timeToBinary</td>
+            <td>
+                Tests the user's ability to convert the time from Binary to decimal.<br>
+                A short python script I wrote to see if I could comfortably read the time in binary before I went ahead with my plans for the 
+                <a href="/projects/binary_clock.html">Binary Clock</a> project.
+            </td>
+            <td>
+                <a href="/software/timeToBinary.html">More info</a>
+            </td>
+            <td>
+                <a href="https://github.com/keelbeelveel/timeToBinary">View this script on GitHub
+            </td>
+        </tr>
+    </table>
+</div>
+</section>
+

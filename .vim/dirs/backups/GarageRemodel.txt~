@@ -1,0 +1,108 @@
+ Contents:
+
+ |BLIND| |DSTRY| |ELCTR| |FLOOR| 
+ |GDOOR| |IDEAS| |LIGHT| |REPAR|
+
+|=========|==========|================|=========================================================================================|=================|===============|
+| REF. NO | LOCATION | REFERENCE FILE | DESCRIPTION                                                                             | STATUS          | DATE          |
+|=========|==========|================|=========================================================================================|=================|===============|
+|         |          |                |                                                                                         |                 |               |
+| *BLIND* |          |                |                                                                                         |                 |               |
+|         |          |                |                                                                                         |                 |               |
+| B1      | SE Wall  | b1.jpg         | Blinds need replaced (64" Rail)                                                         | Di-Pa           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| B2      | SW Wall  | b2.jpg         | Blinds need replaced (31" Rail)                                                         | Di-Pa           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| B3      | SW Wall  | b3.jpg         | Blinds need replaced (31" Rail)                                                         | Di-Pa           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| *DSTRY* |          |                |                                                                                         |                 |               |
+|         |          |                |                                                                                         |                 |               |
+| D1      | SE Wall  | d1.jpg         | Shoe rack needs removed.                                                                | Di              | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| D2      | SE Wall  | d2.jpg dmap.jpg| NE Lg. Cabinet (Contains lawn products) needs replaced.                                 | Di-Re           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| D3      | SE Wall  | d3.jpg dmap.jpg| Glove Drawer needs replaced.                                                            | Di-Re           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| D4      | SE Wall  | d4.jpg dmap.jpg| Glove/Small Implement Cabinet needs replaced.                                           | Di-Re           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| D5      | SE Wall  | d5.jpg dmap.jpg| Watering tools/soil cabinet needs replaced.                                             | Di-Re           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| D6      | SE Wall  | d6.jpg dmap.jpg| Vacuum/Bocce Cabinet needs replaced.                                                    | Di-Re           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| D7      | SE Wall  | d7.jpg dmap.jpg| Junk ?? Drawer needs replaced.                                                          | Di-Re           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| D8      | SE Wall  | d8.jpg dmap.jpg| Extension Cord Cabinet needs replaced.                                                  | Di-Re           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| D9      | SE Wall  | d9.jpg dmap.jpg| SW Lg. Cabinet (Contains cleaning products) needs replaced.                             | Di-Re           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| D10     | SE Wall  | d10.jpg        | Golf Cabinet needs replaced. See I3.                                                    | Di-Re           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| *ELCTR* |          |                |                                                                                         |                 |               |
+|         |          |                |                                                                                         |                 |               |
+| E1      | NE Wall  | e1.jpg         | Fridge outlet needs replacement, double/triple wide?                                    | Di-Pa           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| E2 ??   | SEW,SCrn | e2.jpg         | Replace with double wide? (For yard appliance chargers, possibly small shelf as well?)  | Di-Pa           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| E3      | Keypad   | e3.jpg         | Replace keypad                                                                          | Di-Pa           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| E4 ??   | SE Wall  | e4.jpg         | Install another outlet somewhere in SE wall? Need Elec. Box, outlet, wire               | Di-Pa           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| E5 ??   | NE Wall  |                | Relocate Sprinkler Controller to basement.                                              | Di-Pa           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| *FLOOR* |          |                |                                                                                         |                 |               |
+|         |          |                |                                                                                         |                 |               |
+| F1      | Floor    |                | Floor needs sanded and painted. Need sander, paint, quikcrete?                          | Di-Pa           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| *GDOOR* |          |                |                                                                                         |                 |               |
+|         |          |                |                                                                                         |                 |               |
+| G1a ??  | NE Lift  |                | New Garage door Lift?                                                                   | Di-Pa           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| G1b ??  | NE Door  |                | Clean/Repaint/Replace Garage Doors?                                                     | Di-Pa           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| G2a ??  | SW Lift  |                | New Garage door Lift?                                                                   | Di-Pa           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| G2b ??  | SW Door  |                | Clean/Repaint/Replace Garage Doors?                                                     | Di-Pa           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| *IDEAS* |          |                |                                                                                         |                 |               |
+|         |          |                |                                                                                         |                 |               |
+| I1      | SE Wall  | i1.txt         | New Primary Cabinet System. See D2-D9                                                   | Di-De-Pa        | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| I2      | SE Wall  | i2.txt         | Shelves for Yard Appliance Chargers. See E2.                                            | Di-De-Pa        | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| I3      | NE Wall  | i3.txt         | Golf Cabinet. See D10                                                                   | Di-De-Pa        | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| I4      | -------  | i4.txt         | Beverage Cabinetry/Fridge Placement                                                     | Di-De-Pa        | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| I5      | SW Wall  | i5.txt         | Tool Racks (replace or reuse existing)                                                  | Di-De-Pa        | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| I6      | NE Wall  | i6.txt         | Trash Can Area Redesign?                                                                | Di-De-Pa        | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| *LIGHT* |          |                |                                                                                         |                 |               |
+|         |          |                |                                                                                         |                 |               |
+| L1      | Celing   |                | New Light fixtures.                                                                     | Di-De-Pa        | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| L2      | Celing   |                | Replace CFLs with LEDs                                                                  | Pa              | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| *REPAR* |          |                |                                                                                         |                 |               |
+|         |          |                |                                                                                         |                 |               |
+| R1      | SE Wall  | r1.jpg         | Cracking in SE wall over shoe rack. Needs filled and repainted.                         | Di              | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| R2      | SE Wall  | r2.jpg         | Minor cracking along SE wall over workbench. Needs filled and repainted.                | Di              | 5/20/2020     | 
+|         |          |                |                                                                                         |                 |               |
+| R3      | SE Wall  | r3.jpg         | Large gash in SE wall near blinds. Possibly requires new drywall.                       | Di-Pa           | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| R4 **   | Celing   | r4.jpg         | Damage in lower celing? Fix: ???                                                        | Di              | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| R5      | SW Wall  | r5.jpg         | Small gash in SW wall. Needs filled and repainted.                                      | Di              | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| R6      | SW Wall  | r6.jpg         | Minor cracking in SW wall. Needs filled and repainted.                                  | Di              | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| R7      | SW Wall  | r7.jpg         | Several minor gashes in lower SW wall. Need filled and repainted.                       | Di              | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| R8 **   | SW Wall  | r8.jpg         | Gash in molding. Does it make sense to replace molding??                                | Di              | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+| R9      | NW Wall  | r9.jpg         | Need new method to hang shovel. Remove/Replace bolt. (and fill if necessary)            | Di              | 5/20/2020     |
+|         |          |                |                                                                                         |                 |               |
+|         |          |                |                                                                                         |                 |               |
+|         |          |                |                                                                                         |                 |               |
+|         |          |                |                                                                                         |                 |               |

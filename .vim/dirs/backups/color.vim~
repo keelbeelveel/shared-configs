@@ -1,0 +1,25 @@
+
+
+let purplest           = ['#af5fff', 'af5fff', 135, ]
+let purpler            = ['#af00d7', 'af00d7', 129, ]
+let purple             = ['#af00ff', 'af00ff', 127, ]
+let hotpink            = ['#d7005f', 'd7005f', 162, rgb( 215,   0,  95), DeepPink3 ]
+let concrete           = ['#d7d7ff', 'd7d7ff', 189, rgb( 215, 215, 255), LightSteelBlue1 ]
+let seastain           = ['#87ffa7', '87ffa7', 121, , PaleGreen1 ]
+let crocodile          = ['#5f875f', '5f875f',  65, rgb(  95, 135,  95), DarkSeaGreen4 ]
+let lime               = ['#00ff00', '00ff00',  10, rgb(   0, 255,   0), Lime ]
+let slime              = ['#87ff00', '87ff00', 118, rgb( 135, 235,   0), Chartreuse1 ]
+let viceyellow         = ['#d7ff00', 'd7ff00', 190, , Yellow2 ]
+let sunburn            = ['#d75f00', 'd75f00', 166, , DarkOrange3 ]
+let gulfstream         = ['#5f5fff', '5f5fff',  63, , RoyalBlue1 ]
+
+let s:mnc.brightgray   = ['#d9cec3', 'd9cec3', 252] 
+let s:mnc.lightgray    = ['#998f84', '998f84', 245]
+let s:mnc.gray         = ['#857f78', '857f78', 243]
+let s:mnc.mediumgray   = ['#666462', '666462', 241]
+let s:mnc.deepgray     = ['#45413b', '45413b', 238]
+let s:mnc.deepergray   = ['#35322d', '35322d', 236]
+let s:mnc.darkgray     = ['#242321', '242321', 235, Grey15 ]
+let s:mnc.blackgray    = ['#1c1b1a', '1c1b1a', 233, Gray11 ]
+let s:mnc.blackestgray = ['#141413', '141413', 232, Grey7 ]
+
